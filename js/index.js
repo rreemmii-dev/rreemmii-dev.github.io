@@ -17,5 +17,4 @@ function f() {
         }
     }
 }
-
-window.setInterval(f, 1000);
+window.addEventListener('resize', f);
