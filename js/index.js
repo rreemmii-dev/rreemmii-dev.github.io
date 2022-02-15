@@ -18,3 +18,4 @@ function f() {
     }
 }
 window.addEventListener('resize', f);
+f();
