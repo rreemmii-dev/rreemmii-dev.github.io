@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Clash INFO</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css"/>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/card.css">
+</head>
+<body>
+<p style="text-align: center;">
+    <img src="https://media.discordapp.net/attachments/748443076028137482/748443366790004766/add_english.gif">
+</p>
+<div>
+    <p>
+        Clash INFO is a Discord bot about the game Clash of Clans (COC). There are many commands explained bellow :
+        information about a Clash of Clans player, clans, best bulidings level for each TH and BH level, auto-roles
+        systems...
+    </p>
+    <p>
+        If you have any question, you can join our <a href="https://discord.gg/KQmstPw">support server</a>! The bot is
+        also available there for your tests before adding it in your server.
+    </p>
+</div>
+<ul uk-accordion>
+    <li class="list">
+        <a class="uk-accordion-title title" href="#">Clans related commands</a>
+        <div class="uk-accordion-content">
+            <div class="card">
+                <div class="card-icon"><img src="pictures/icons/clan_info.png" class="icon"></div>
+                <div class="card-title">Clan information</div>
+                <div class="card-legend">/clan_info</div>
+                <hr class="card-separation"/>
+                <div class="card-body">
+                    Get information about your clan, with clan points, builder base points, league, required trophies,
+                    leader, number of members, clan wars stats, location, language, invitations type and description.
+                </div>
+                <div class="card-screenshot">
+                    <img src="pictures/screenshots/clan_info.jpg" class="screenshot">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><img src="pictures/icons/clan_members.png" class="icon"></div>
+                <div class="card-title">Clan members</div>
+                <div class="card-legend">/clan_members</div>
+                <hr class="card-separation"/>
+                <div class="card-body">
+                    Get your clan members list, with the rank by trophies in your clan, the actual league, the best
+                    league, the town hall and the tag of each player.
+                </div>
+                <div class="card-screenshot">
+                    <img src="pictures/screenshots/clan_members.jpg" class="screenshot">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><img src="pictures/icons/search_clan.png" class="icon"></div>
+                <div class="card-title">Search clan</div>
+                <div class="card-legend">/search_clan</div>
+                <hr class="card-separation"/>
+                <div class="card-body">
+                    You don't know your clan tag? Don't worry! You can search a clan with its name, and get its tag or
+                    click on it to get immediatly the information given with the clan_info command.
+                </div>
+                <div class="card-screenshot">
+                    <img src="pictures/screenshots/search_clan.jpg" class="screenshot">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><img src="pictures/icons/clan_super_troops_activated.png" class="icon"></div>
+                <div class="card-title">Super troops activated</div>
+                <div class="card-legend">/clan_super_troops_activated</div>
+                <hr class="card-separation"/>
+                <div class="card-body">
+                    You are looking for a super troop, but you don't know who in your clan has activated it? You can
+                    search a super troop in your clan and see who had activated it. It can also help you to spy your
+                    opponents during clan wars!
+                </div>
+                <div class="card-screenshot">
+                    <img src="pictures/screenshots/clan_super_troops_activated.jpg" class="screenshot">
+                </div>
+            </div>
+
+        </div>
+    </li>
+    <li class="list">
+        <hr>
+        <a class="uk-accordion-title title" href="#">Player related commands</a>
+        <div class="uk-accordion-content">
+            <div class="card">
+                <div class="card-icon"><img src="pictures/icons/player_info.png" class="icon"></div>
+                <div class="card-title">Player information</div>
+                <div class="card-legend">/player_info</div>
+                <hr class="card-separation"/>
+                <div class="card-body">
+                    Get informationa about a player, with the possibility to choose main information, troops levels
+                    (with max level for town hall and absolute max level) or success.
+                </div>
+                <div class="card-screenshot">
+                    <img src="pictures/screenshots/player_info.jpg" class="screenshot">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><img src="pictures/icons/link_coc_account.png" class="icon"></div>
+                <div class="card-title">Link Clash of Clans account</div>
+                <div class="card-legend">/link_coc_account</div>
+                <hr class="card-separation"/>
+                <div class="card-body">
+                    You can link your Clash of Clans account with your Discord account, to show your Clash of Clans tag
+                    in your /member_info page
+                </div>
+                <div class="card-screenshot">
+                    <img src="pictures/screenshots/link_coc_account.jpg" class="screenshot">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><img src="pictures/icons/unlink_coc_account.png" class="icon"></div>
+                <div class="card-title">Unlink Clash of Clans account</div>
+                <div class="card-legend">/unlink_coc_account</div>
+                <hr class="card-separation"/>
+                <div class="card-body">
+                    You can unlink your Clash of Clans account from your Discord account, if you don't want to show your
+                    Clash of Clans tag in your /member_info page
+                </div>
+                <div class="card-screenshot">
+                    <img src="pictures/screenshots/unlink_coc_account.jpg" class="screenshot">
+                </div>
+            </div>
+
+        </div>
+    </li>
+    <li class="list">
+        <hr>
+        <a class="uk-accordion-title title" href="#">Clash of Clans general commands</a>
+        <div class="uk-accordion-content">
+            <div class="card">
+                <div class="card-icon"><img src="pictures/icons/buildings.png" class="icon"></div>
+                <div class="card-title">Buildings max level (Main village)</div>
+                <div class="card-legend">/buildings_th</div>
+                <hr class="card-separation"/>
+                <div class="card-body">
+                    Get the max level of each buildings for the given town hall level.
+                </div>
+                <div class="card-screenshot">
+                    <img src="pictures/screenshots/buildings_th.jpg" class="screenshot">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><img src="pictures/icons/buildings.png" class="icon"></div>
+                <div class="card-title">Buildings max level (Bulider base)</div>
+                <div class="card-legend">/buildings_bh</div>
+                <hr class="card-separation"/>
+                <div class="card-body">
+                    Get the max level of each buildings for the given builder hall level.
+                </div>
+                <div class="card-screenshot">
+                    <img src="pictures/screenshots/buildings_bh.jpg" class="screenshot">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><img src="pictures/icons/auto_roles.png" class="icon"></div>
+                <div class="card-title">Auto-roles systems</div>
+                <div class="card-legend">/auto_roles&nbspth OR /auto_roles&nbspbh OR /auto_roles&nbspleagues</div>
+                <hr class="card-separation"/>
+                <div class="card-body">
+                    Create an auto-roles system, with a message and a select menu bellow to choose which roles you want
+                    to have. There are 3 available auto-roles systems: town hall, builder hall or league
+                </div>
+                <div class="card-screenshot">
+                    <img src="pictures/screenshots/auto_roles.jpg" class="screenshot">
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="list">
+        <hr>
+        <a class="uk-accordion-title title" href="#">Discord general commands</a>
+        <div class="uk-accordion-content">
+            <div class="card">
+                <div class="card-icon"><img src="pictures/icons/member_info.png" class="icon"></div>
+                <div class="card-title">Member information</div>
+                <div class="card-legend">/member_info</div>
+                <hr class="card-separation"/>
+                <div class="card-body">
+                    Get information about a member, with date of joining your server, date of Discord account creation,
+                    accounts linked and member permissions in your server.
+                </div>
+                <div class="card-screenshot">
+                    <img src="pictures/screenshots/member_info.jpg" class="screenshot">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon"><img src="pictures/icons/bot_info.png" class="icon"></div>
+                <div class="card-title">Bot information</div>
+                <div class="card-legend">/bot_info</div>
+                <hr class="card-separation"/>
+                <div class="card-body">
+                    Get information about Clash INFO, with missing permissions in your server, the number of servers of
+                    the bot and the date of creation and certification by Discord.
+                </div>
+                <div class="card-screenshot">
+                    <img src="pictures/screenshots/bot_info.jpg" class="screenshot">
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+<div class="uk-alert-primary" uk-alert>
+    What are you waiting for? <a
+        href="https://discord.com/oauth2/authorize?client_id=704688212832026724&permissions=275683592208&scope=applications.commands%20bot">Add
+    Clash INFO now to your server!</a>
+</div>
+</body>
+</html>
