@@ -16,6 +16,7 @@ function f() {
             cards[i].style.width = '25%';
         }
     }
+    console.log(window.innerWidth)
 }
 window.addEventListener('resize', f);
-f();
+window.addEventListener('load', f)
