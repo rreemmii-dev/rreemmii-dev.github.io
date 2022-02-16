@@ -1,54 +1,57 @@
 body {
-	padding: 5%;
+    padding: 5%;
 }
 hr {
-	margin: 0;
+    margin: 0;
 }
 .title {
-	font-size: x-large;
-	padding: 10px 10px 0 10px;
+    font-size: x-large;
+    padding: 10px 10px 0 10px;
 }
 .card {
-	color: black;
-	background-color: lightgrey;
-	padding: 20px;
-	text-align: center;
-	border-radius: 20px;
-	margin: 10px 5px;
-	width: 22.5%;
-	min-width: 7cm;
+    color: black;
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px 5px;
+    width: 22.5%;
+    min-width: 7cm;
 }
 .card-icon {
-	width: 50%;
-	margin: auto;
+    width: 50%;
+    margin: auto;
 }
 .icon {
-	height: 50px;
+    height: 50px;
 }
 .card-title {
-	font-size: x-large;
-	padding: 10px;
+    font-size: x-large;
+    padding: 10px;
 }
 .card-separation {
-	border-color: black;
-	margin: 20px 0;
+    border-color: black;
+    margin: 20px 0;
 }
 .card-legend {
-	color: grey;
-	font-size: small;
+    color: grey;
+    font-size: small;
 }
 .card-body {
-	text-align: justify;
-	padding-bottom: 20px;
+    text-align: justify;
+    padding-bottom: 20px;
 }
 .card-screenshot {
 }
 .screenshot {
-	border-radius: 20px;
-	width: 100%;
+    border-radius: 20px;
+    width: 100%;
 }
 .uk-accordion-content {
-	display: inline-flex;
-	width: 100%;
-	overflow:auto;
+    display: inline-flex;
+    width: 100%;
+    overflow: auto;
 }
+
+/* TODO : PC : Scrollbar en haut et non en bas des listes de cartes */
+
