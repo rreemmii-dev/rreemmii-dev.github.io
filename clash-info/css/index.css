@@ -55,3 +55,6 @@ hr {
 
 /* TODO : PC : Scrollbar en haut et non en bas des listes de cartes */
 
+body {
+    background: rgba(239, 229, 221, 0.5);
+}
